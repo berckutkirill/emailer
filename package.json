@@ -1,0 +1,29 @@
+{
+  "name": "emailer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "hbs": "~4.0.1",
+    "imap": "^0.8.19",
+    "lodash": "^4.17.10",
+    "mail-listener-fixed": "^1.1.0",
+    "mail-listener2": "^0.3.1",
+    "mail-listener2-updated": "^0.3.3",
+    "mail-listener3": "0.0.3",
+    "mail-notifier": "^0.5.0",
+    "morgan": "~1.9.0",
+    "nodemailer": "^4.6.4",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "mail-listener3": "latest",
+    "mail-listener-fixed": "latest"
+  }
+}
