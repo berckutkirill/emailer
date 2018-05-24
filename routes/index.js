@@ -14,7 +14,7 @@ router.post('/send', function (req, res) {
     switch (req.body.letter) {
         case "0": {
             body = fs.readFileSync('emails/sayNo.html');
-            subject = 'Ваша заявка отклонена';
+            subject = 'Рассмотрели заявку';
             break;
         }
         case "1": {
@@ -24,7 +24,7 @@ router.post('/send', function (req, res) {
         }
         case "2": {
             body = fs.readFileSync('emails/sayBrif.html');
-            subject = 'Заполните пожалуйста бриф';
+            subject = 'Дополнительная информация по заявке';
             break;
         }
         default: {

@@ -74,9 +74,9 @@ function sendAnswer(email) {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"CheshireCat" <manager@cheshire-cat.by>', // sender address
+        from: '"Чеширский Кот" <manager@cheshire-cat.by>', // sender address
         to: email, // list of receivers
-        subject: 'Ваша заявка принята', // Subject line
+        subject: 'Приняли заявку', // Subject line
         html: body
     };
 
